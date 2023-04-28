@@ -28,7 +28,7 @@ limpatela
             interrompa
          fimse
          se menu = 10 entao
-            para x de 1 ate 9 faca
+            para x de 1 ate 10 faca
                  escreval(x, " X 1 = ", x*1)
                  escreval(x, " X 2 = ", x*2)
                  escreval(x, " X 3 = ", x*3)
@@ -41,6 +41,7 @@ limpatela
                  escreval(x, " X 10 = ", x*10)
                  escreva("APERTE ENTER PARA CONTINUAR")
                                  leia(not)
+                 interrompa
             fimpara
          fimse
          escreval(menu, " X 1 = ", menu*1)
