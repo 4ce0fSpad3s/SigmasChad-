@@ -1,6 +1,6 @@
 Algoritmo "tabuada"
 Var
-menu : inteiro
+menu, x : inteiro
 not : caracter
 Inicio
 menu <- 1
@@ -19,12 +19,29 @@ limpatela
          escreval("Tabuada do 7")
          escreval("Tabuada do 8")
          escreval("Tabuada do 9")
+         escreval("10 - Todas as tabuadas")
          escreval("0 - Desligar o sistema")
          escreval("==============================")
          escreva
                 leia(menu)
          se menu = 0 entao
             interrompa
+         fimse
+         se menu = 10 entao
+            para x de 1 ate 9 faca
+                 escreval(x, " X 1 = ", x*1)
+                 escreval(x, " X 2 = ", x*2)
+                 escreval(x, " X 3 = ", x*3)
+                 escreval(x, " X 4 = ", x*4)
+                 escreval(x, " X 5 = ", x*5)
+                 escreval(x, " X 6 = ", x*6)
+                 escreval(x, " X 7 = ", x*7)
+                 escreval(x, " X 8 = ", x*8)
+                 escreval(x, " X 9 = ", x*9)
+                 escreval(x, " X 10 = ", x*10)
+                 escreva("APERTE ENTER PARA CONTINUAR")
+                                 leia(not)
+            fimpara
          fimse
          escreval(menu, " X 1 = ", menu*1)
          escreval(menu, " X 2 = ", menu*2)
