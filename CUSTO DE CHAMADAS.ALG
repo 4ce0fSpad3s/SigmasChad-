@@ -15,7 +15,7 @@ x[2,3] <- 0.50
 x[3,1] <- 0.48
 x[3,2] <- 1.11
 x[3,3] <- 0.30
-escreval("Sistema de caluclo de custo de chamadas")
+escreval("Sistema de calculo de custo de chamadas")
 enquanto (liga <> 47) e (liga <> 48) e (liga <> 41) faca
          escreva("Informe o seu DDD: ")
                  leia(liga)
@@ -49,7 +49,7 @@ senao
      fimse
 fimse
 custo <- chamada*x[liga,recebe]
-escreval("R$",custo)
+escreval("R$",custo:2:2)
 escreva("Deseja continuar?(s/n): ")
                 leia(s)
 escreva("APERTE ENTER PARA CONTINUAR")
